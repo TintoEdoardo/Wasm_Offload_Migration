@@ -1,0 +1,11 @@
+workspace = { members = ["src/wasm_module"] }
+[package]
+name = "Wasm_Offload_Migration"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+wasmtime = "17.0.0"
+anyhow = "1.0.79"
